@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>ag.saga.booking.state_machine</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit" Version="8.0.14" />
+      <PackageReference Include="MassTransit.MongoDb" Version="8.0.14" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.14" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ag.saga.common\ag.saga.common.csproj" />
+    </ItemGroup>
+
+</Project>

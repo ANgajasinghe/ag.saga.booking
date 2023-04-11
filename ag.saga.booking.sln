@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ag.saga.common", "ag.saga.common\ag.saga.common.csproj", "{A00D7678-1B74-43F8-AEA7-B3FE013EAA19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ag.saga.booking.state-machine", "ag.saga.booking.state-machine\ag.saga.booking.state-machine.csproj", "{B1237E85-8F72-4618-8238-9AF2550F9402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ag.saga.booking.api", "ag.saga.booking.api\ag.saga.booking.api.csproj", "{8AFC9598-E259-4821-BAFF-9A377EE04EEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00D7678-1B74-43F8-AEA7-B3FE013EAA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00D7678-1B74-43F8-AEA7-B3FE013EAA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00D7678-1B74-43F8-AEA7-B3FE013EAA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00D7678-1B74-43F8-AEA7-B3FE013EAA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1237E85-8F72-4618-8238-9AF2550F9402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1237E85-8F72-4618-8238-9AF2550F9402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1237E85-8F72-4618-8238-9AF2550F9402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1237E85-8F72-4618-8238-9AF2550F9402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AFC9598-E259-4821-BAFF-9A377EE04EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AFC9598-E259-4821-BAFF-9A377EE04EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AFC9598-E259-4821-BAFF-9A377EE04EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AFC9598-E259-4821-BAFF-9A377EE04EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
